@@ -1,2 +1,1 @@
-# Module 71
- JWT token
+# Module 71: JWT token
