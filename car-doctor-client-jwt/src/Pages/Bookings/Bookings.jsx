@@ -47,7 +47,7 @@ const Bookings = () => {
   };
 
   const handleBookingConfirm = (id) => {
-    fetch(`https://car-doctor-server-jwt.vercel.app/${id}`, {
+    fetch(`https://car-doctor-server-jwt.vercel.app/bookings/${id}`, {
       method: "PATCH",
       headers: {
         "content-type": "application/json",
